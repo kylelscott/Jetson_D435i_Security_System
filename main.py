@@ -3,6 +3,7 @@ import numpy as np
 import cv2
 import time
 import logging
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 pipeline = rs.pipeline()
 config = rs.config()
